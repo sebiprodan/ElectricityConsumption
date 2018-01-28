@@ -5,8 +5,8 @@ public class TV extends Appliance {
     private int brightnessLevel;
     private int volumeLevel;
 
-    public TV(String name) {
-        this.name = name;
+    public TV(String brandName) {
+        this.brandName = brandName;
         this.brightnessLevel = 0;
         this.volumeLevel = 0;
         this.consumptionPerHour = 0;
@@ -15,7 +15,7 @@ public class TV extends Appliance {
 
     @Override
     public String toString() {
-        return this.name + "TV" + " with the brightness level: " + this.brightnessLevel + " & " + "the volume level: " + this.volumeLevel + " will have the electricity consumption/hour: " + this.consumptionPerHour + "w";
+        return this.brandName + "TV" + " with the brightness level: " + this.brightnessLevel + " & " + "the volume level: " + this.volumeLevel + " will have the electricity consumption/hour: " + this.consumptionPerHour + "w";
     }
 
     public void stop() {

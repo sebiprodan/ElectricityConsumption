@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d226fa-4124-4018-9782-04d4ca9ec901" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/App.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/Appliance.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/Appliance.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/ApplianceBehaviour.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/ApplianceOnOff.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/DishWasher.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/DishWasher.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/Dryer.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/Dryer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/TV.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/TV.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/siit/homework/VacuumCleaner.java" afterPath="$PROJECT_DIR$/src/main/java/ro/siit/homework/VacuumCleaner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +38,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/siit/homework/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,7 +84,34 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="github/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -375,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517149726083</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Successfully created the TV">
+      <created>1517165237759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517165237759</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -448,7 +474,8 @@
     </ignored-roots>
     <MESSAGE value="First Commit" />
     <MESSAGE value="Successfully created the appliances but without any behaviour yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully created the appliances but without any behaviour yet" />
+    <MESSAGE value="Successfully created the TV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully created the TV" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -535,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/siit/homework/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>

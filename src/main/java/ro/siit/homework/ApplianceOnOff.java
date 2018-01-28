@@ -1,6 +1,6 @@
 package ro.siit.homework;
 
-public interface ApplianceBehaviour {
+public interface ApplianceOnOff {
 
     void start();
     void stop();

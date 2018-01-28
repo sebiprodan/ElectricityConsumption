@@ -10,7 +10,7 @@ public class VacuumCleaner extends Appliance {
 
     }
 
-    public void consumption() {
-
+    public double consumption() {
+        return this.consumptionPerHour;
     }
 }

@@ -10,7 +10,7 @@ public class Dryer extends Appliance {
 
     }
 
-    public void consumption() {
-
+    public double consumption() {
+        return this.consumptionPerHour;
     }
 }

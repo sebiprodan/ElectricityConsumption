@@ -5,5 +5,5 @@ public abstract class Appliance implements ApplianceOnOff {
     protected double consumptionPerHour;
     protected String brandName;
 
-    protected abstract double consumption();
+    protected abstract String consumption();
 }

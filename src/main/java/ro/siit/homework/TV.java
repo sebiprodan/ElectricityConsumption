@@ -80,8 +80,8 @@ public class TV extends Appliance {
         }
     }
 
-    public double consumption() {
-        return this.consumptionPerHour;
+    public String consumption() {
+        return this.brandName + " TV: " + this.consumptionPerHour + "Wh";
     }
 
 }

@@ -6,8 +6,8 @@ public class VacuumCleaner extends Appliance {
 
     public VacuumCleaner(String brandName) {
         this.brandName = brandName;
-        this.vacuumLevel = 0;
-        this.consumptionPerHour = 0;
+        //this.vacuumLevel = 0;
+        //this.consumptionPerHour = 0;
     }
 
     @Override
@@ -77,7 +77,7 @@ public class VacuumCleaner extends Appliance {
             System.out.println("The Baby Nose Vacuum feature is already OFF");
     }
 
-    public double consumption() {
-        return this.consumptionPerHour;
+    public String consumption() {
+        return this.brandName + " Vacuum Cleaner: " + this.consumptionPerHour + "Wh";
     }
 }

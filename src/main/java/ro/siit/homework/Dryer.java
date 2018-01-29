@@ -22,25 +22,22 @@ public class Dryer extends Appliance {
         }
     }
 
-    public void increaseAirPower() {
+    public void changeAirPower(int airPower) {
+        this.airPower = airPower;
         if (this.consumptionPerHour == 0) {
             System.out.println("The Dryer is OFF. Please turn it ON");
-        } else if (this.consumptionPerHour == 750) {
+        } else if (this.airPower > 3 || this.airPower < 0) {
             System.out.println("This Dryer has only 3 air power levels. Please use one of these 3");
-        } else {
-            this.consumptionPerHour = this.consumptionPerHour + 250;
-            this.airPower = airPower + 1;
-            this.airHeatLevel = this.airHeatLevel + 1;
-        }
-    }
-
-    public void decreaseAirPower() {
-        if (this.consumptionPerHour == 0) {
-            System.out.println("The Dryer is OFF. Please turn it ON");
-        } else {
-            this.consumptionPerHour = this.consumptionPerHour - 250;
-            this.airPower = airPower - 1;
-            this.airHeatLevel = this.airHeatLevel - 1;
+        } else switch (airPower) {
+            case 1:
+                this.consumptionPerHour = 250;
+                break;
+            case 2:
+                this.consumptionPerHour = 500;
+                break;
+            case 3:
+                this.consumptionPerHour = 750;
+                break;
         }
     }
 

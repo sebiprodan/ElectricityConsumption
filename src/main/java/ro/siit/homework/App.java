@@ -41,8 +41,7 @@ public class App {
         System.out.println(dr1.consumption());
         dr1.changeAirPower(3);
         System.out.println(dr1.consumption());
-        dr1.changeAirPower(1);
-        System.out.println(dr1.consumption());
+        dr1.changeAirPower(4);
         dr1.stop();
         System.out.println(dr1.consumption());
 

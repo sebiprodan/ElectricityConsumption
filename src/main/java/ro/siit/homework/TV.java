@@ -19,19 +19,24 @@ public class TV extends Appliance {
     }
 
     public void stop() {
+        if (this.consumptionPerHour == 0) {
+            System.out.println("The TV is already OFF");
+        } else {
+            this.brightnessLevel = 0;
+            this.volumeLevel = 0;
+            this.consumptionPerHour = 0;
 
-        this.brightnessLevel = 0;
-        this.volumeLevel = 0;
-        this.consumptionPerHour = 0;
-
-
+        }
     }
 
     public void start() {
-
-        this.consumptionPerHour = 40;
-        this.brightnessLevel = 50;
-        this.volumeLevel = 10;
+        if (this.consumptionPerHour > 0) {
+            System.out.println("The TV is already ON");
+        } else {
+            this.consumptionPerHour = 40;
+            this.brightnessLevel = 50;
+            this.volumeLevel = 10;
+        }
     }
 
     public void increaseV() {
@@ -64,7 +69,7 @@ public class TV extends Appliance {
             this.consumptionPerHour = this.consumptionPerHour + 0.5;
         } else if (this.brightnessLevel >= 100) {
             this.brightnessLevel = 100;
-        }else if (this.consumptionPerHour <= 0){
+        } else if (this.consumptionPerHour <= 0) {
             this.consumptionPerHour = 0;
         }
     }

@@ -21,15 +21,22 @@ public class VacuumCleaner extends Appliance {
     public void start() {
         if (this.consumptionPerHour == 100) {
             System.out.println("Please turn OFF the Baby Nose Vacuum feature first.");
-        } else
+        } else if (this.consumptionPerHour > 100) {
+            System.out.println("The Vacuum Cleaner is already ON");
+        } else {
             this.consumptionPerHour = 500;
             this.vacuumLevel = 1;
 
+        }
     }
 
     public void stop() {
-        this.consumptionPerHour = 0;
-        this.vacuumLevel = 0;
+        if (this.consumptionPerHour == 0) {
+            System.out.println("The Vacuum Cleaner is already OFF");
+        } else {
+            this.consumptionPerHour = 0;
+            this.vacuumLevel = 0;
+        }
     }
 
     public void increaseLevel() {
